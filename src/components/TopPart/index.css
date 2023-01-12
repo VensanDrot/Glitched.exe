@@ -1,0 +1,25 @@
+.parent{
+    position: relative;
+    background-image: url("./bg.png");
+    height: 550px;
+    background-size: cover;
+}
+
+.hold {
+    position: absolute;
+    left: 157px;
+    bottom: 111px;
+    display: flex;
+    align-items: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.h1 h1{
+    margin: 0;
+}
+
+.hold img {
+    height: 328px;
+}
