@@ -7,7 +7,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: blue;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -34,5 +34,6 @@
 .swiper-pagination-bullet {
     width: 12px;
     height: 5px;
+    background:white;
     border-radius: 0;
 }
