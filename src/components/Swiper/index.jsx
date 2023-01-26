@@ -14,12 +14,10 @@ import "./index.css";
 // import required modules
 import { Pagination, Navigation, Autoplay } from "swiper";
 
-const SwiperRes = (width) => {
-  const widP = width.width.width;
-  console.log(widP);
-
+const SwiperRes = (props) => {
+  console.log(props.width);
   const changer = () => {
-    if (widP <= 900) {
+    if (props.width <= 1100) {
       return 1;
     } else {
       return 3;
@@ -30,7 +28,7 @@ const SwiperRes = (width) => {
     <>
       <Swiper
         slidesPerView={changer()}
-        spaceBetween={20}
+        spaceBetween={10}
         loop={true}
         centeredSlides={true}
         navigation={true}
