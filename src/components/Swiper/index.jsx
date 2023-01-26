@@ -46,7 +46,7 @@ const SwiperRes = (width) => {
       >
         <SwiperSlide>
           <a href="https://frag.gg/" target="_blank" className="a_cont">
-            <img src={img1} alt="" />
+            <img src={img1} alt="" className="small" />
           </a>
         </SwiperSlide>
         <SwiperSlide>

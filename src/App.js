@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import MainPage from "./pages/MainPage";
 
 function App() {
-  const windowSize = useRef([window.innerWidth, window.innerHeight]);
+  const [windowSize, setWindowSize] = useState(useRef([window.innerWidth, window.innerHeight]));
 
   return (
     <>

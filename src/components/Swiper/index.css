@@ -38,3 +38,8 @@
 .a_cont img {
     height: 100%;
 }
+
+.small {
+    margin-top: 10%;
+    height: 80% !important;
+}
