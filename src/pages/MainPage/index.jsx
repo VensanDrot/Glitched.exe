@@ -7,7 +7,7 @@ import { RxDiscordLogo } from "react-icons/rx";
 import { FiInstagram } from "react-icons/fi";
 import { BsTwitch } from "react-icons/bs";
 
-const MainPage = () => {
+const MainPage = (width) => {
   /*
   tg://resolve?domain=glitched_exe/
   https://instagram.com/glitched.exe.inst/
@@ -68,7 +68,7 @@ const MainPage = () => {
         <hr className=" hr btm"></hr>
       </div>
       <div className="slider">
-        <SwiperRes></SwiperRes>
+        <SwiperRes width={width}></SwiperRes>
       </div>
     </>
   );
