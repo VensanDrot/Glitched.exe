@@ -1,4 +1,4 @@
-*{
+* {
     color: white;
 }
 
@@ -12,19 +12,19 @@
     position: relative;
 }
 
-.flex_cont_soc{
+.flex_cont_soc {
     display: flex;
     flex-direction: column;
     row-gap: 8px;
 }
 
-.hr{
+.hr {
     margin: 0;
     position: absolute;
     background-color: white;
     width: 0.3px;
     height: 25px;
-    transform: rotate(90);
+    transform: rotate(0deg);
 }
 
 .top {
@@ -37,7 +37,7 @@
     right: 50%;
 }
 
-.data_cont{
+.data_cont {
     height: 300px;
     width: 400px;
 }
@@ -52,7 +52,8 @@
     line-height: 28px;
 }
 
-.socials a, svg{ 
+.socials a,
+svg {
     font-size: 24px;
     text-align: center;
 }
@@ -73,4 +74,50 @@
     background-color: black;
     height: 450px;
     padding: 25px 0;
+}
+
+@media screen and (max-width: 900px) {
+    .info_container {
+        flex-direction: column;
+        height: auto !important;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .data_cont {
+        height: 310px;
+    }
+    .hr {
+        width: 25px;
+        height: 0.3px;
+    }
+    .top {
+        right: 0;
+        top: 50%;
+    }
+    .btm {
+        left: 0;
+        top: 50%;
+    }
+}
+
+
+/* ================== MEDIA QUERIES (Extra SMALL DEVICES) ============= */
+
+@media screen and (max-width: 420px) {
+    .socials h1 {
+        font-size: 31px;
+    }
+    .data_cont {
+        width: auto;
+        padding-inline: 5px;
+    }
+    .info_spec p {
+        text-align: right;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .socials a,
+    svg {
+        font-size: 21px;
+    }
 }
