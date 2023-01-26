@@ -1,4 +1,4 @@
-.parent{
+.parent {
     position: relative;
     background-image: url("./bg.png");
     height: 550px;
@@ -16,10 +16,48 @@
     font-size: 40px;
 }
 
-.h1 h1{
+.h1 h1 {
     margin: 0;
 }
 
 .hold img {
     height: 328px;
+}
+
+@media screen and (max-width: 1024px) {
+    .hold {
+        left: 7px;
+    }
+}
+
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) ============= */
+
+@media screen and (max-width: 650px) {
+    .hold {
+        left: 0px;
+        font-size: 32px;
+        bottom: 145px;
+    }
+    .hold img {
+        height: 238px;
+    }
+}
+
+
+/* ================== MEDIA QUERIES (Extra SMALL DEVICES) ============= */
+
+@media screen and (max-width: 500px) {
+    .hold {
+        display: block;
+        align-items: center;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 32px;
+        bottom: 145px;
+    }
+    .hold img {
+        height: 238px;
+    }
 }
