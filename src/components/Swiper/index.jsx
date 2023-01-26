@@ -15,7 +15,6 @@ import "./index.css";
 import { Pagination, Navigation, Autoplay } from "swiper";
 
 const SwiperRes = (props) => {
-  console.log(props.width);
   const changer = () => {
     if (props.width <= 1100) {
       return 1;
