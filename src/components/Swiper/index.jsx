@@ -1,5 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import img1 from "./img/Frag.gg.png";
+import img2 from "./img/IT-Park.png";
+import img3 from "./img/Major-Premium-Gaming.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -9,7 +12,7 @@ import "swiper/css/navigation";
 import "./index.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Pagination, Navigation, Autoplay } from "swiper";
 const SwiperRes = () => {
   return (
     <>
@@ -18,22 +21,32 @@ const SwiperRes = () => {
         spaceBetween={30}
         loop={true}
         centeredSlides={true}
+        navigation={true}
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
+        modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <a href="https://frag.gg/" target="_blank" className="a_cont">
+            <img src={img1} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://it-park.uz/ru/itpark" target="_blank" className="a_cont">
+            <img src={img2} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://www.instagram.com/majorclub.uz/" target="_blank" className="a_cont">
+            <img src={img3} alt="" />
+          </a>
+        </SwiperSlide>
       </Swiper>
     </>
   );

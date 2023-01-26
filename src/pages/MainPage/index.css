@@ -12,6 +12,10 @@
     position: relative;
 }
 
+.info_container div {
+    overflow: hidden;
+}
+
 .flex_cont_soc {
     display: flex;
     flex-direction: column;
@@ -38,7 +42,7 @@
 }
 
 .data_cont {
-    height: 300px;
+    height: 320px;
     width: 400px;
 }
 

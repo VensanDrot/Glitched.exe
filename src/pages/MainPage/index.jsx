@@ -19,18 +19,19 @@ const MainPage = () => {
   return (
     <>
       <TopPart></TopPart>
+
       <div className="info_container">
         <hr className=" hr top"></hr>
         <div className="socials data_cont">
           <h1>Наши социальные сети</h1>
           <div className="flex_cont_soc">
-            <a href="tg://resolve?domain=glitched_exe/" target="_blank">
+            <a href="https://t.me/glitched_exe" target="_blank">
               <div className="aligner">
                 <p>Новости и анонсы турниров</p>
                 <TbBrandTelegram />
               </div>
             </a>
-            <a href="tg://resolve?domain=Glitchedexe/" target="_blank">
+            <a href="https://t.me/Glitchedexe" target="_blank">
               <div className="aligner">
                 <p>Поболтаем?</p>
                 <TbBrandTelegram />
@@ -48,7 +49,7 @@ const MainPage = () => {
                 <BsTwitch />
               </div>
             </a>
-            <a href="https://discord.com/https://discord.gg/75YWWfNZkd" target="_blank">
+            <a href="https://discord.gg/75YWWfNZkd" target="_blank">
               <div className="aligner">
                 <p>Discord</p>
                 <RxDiscordLogo />
