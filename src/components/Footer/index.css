@@ -1,0 +1,92 @@
+    .f_container {
+        background: black;
+        position: relative;
+        height: 229px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .img_name,
+    .links_b,
+    .socials_b {
+        height: 77px;
+    }
+    
+    .img_name,
+    .socials_b {
+        display: flex;
+    }
+    
+    .text_hold p {
+        margin: 4px;
+    }
+    
+    .text_hold p:nth-child(1) {
+        font-size: 25px;
+    }
+    
+    .text_hold p:nth-child(2) {
+        font-size: 20px;
+    }
+    
+    .img_name img {
+        height: 77px;
+    }
+    /* links_b */
+    
+    .links_b {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        font-size: 20px;
+    }
+    
+    .socials_b {
+        flex-direction: column;
+    }
+    
+    .socials_b p {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    @media screen and (max-width: 800px) {
+        .f_container {
+            display: grid;
+            justify-items: center;
+            justify-content: center;
+            align-items: stretch;
+            column-gap: 2rem;
+        }
+        .img_name {
+            grid-row: 1;
+            /* Start on the first column line and extend all the to the last column line */
+            grid-column: 1 / 4;
+        }
+        .socials_b,
+        .links_b {
+            grid-row: 2;
+        }
+    }
+    
+    @media screen and (max-width: 520px) {
+        .f_container {
+            height: auto;
+            padding: 10px 0 25px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 20px;
+        }
+        .img_name {
+            margin-bottom: 15px;
+        }
+    }

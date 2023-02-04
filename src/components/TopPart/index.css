@@ -1,6 +1,6 @@
 .parent {
     position: relative;
-    background-image: url("./bg.png");
+    background-image: url("../Assets/bg.png");
     height: 550px;
     background-size: cover;
 }

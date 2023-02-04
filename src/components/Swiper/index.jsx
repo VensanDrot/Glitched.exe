@@ -1,8 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import img1 from "./img/Frag.gg.png";
-import img2 from "./img/IT-Park.png";
-import img3 from "./img/Major-Premium-Gaming.png";
+import img1 from "../Assets/Frag.gg.png";
+import img2 from "../Assets/IT-Park.png";
+import img3 from "../Assets/Major-Premium-Gaming.png";
 
 // Import Swiper styles
 import "swiper/css";

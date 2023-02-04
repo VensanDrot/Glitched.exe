@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import logo from "./logo.png";
+import logo from "../Assets/logo.png";
 
 const TopPart = () => {
   return (

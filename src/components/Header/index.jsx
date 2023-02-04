@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
-import logo from "./logo.svg";
+import logo from "../Assets/logo.svg";
 import { Sling as Hamburger } from "hamburger-react";
 
 const Header = () => {
