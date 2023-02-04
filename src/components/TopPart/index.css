@@ -1,7 +1,7 @@
 .parent {
     position: relative;
     background-image: url("../Assets/bg.png");
-    height: 550px;
+    height: 600px;
     background-size: cover;
 }
 
