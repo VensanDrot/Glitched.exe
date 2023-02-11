@@ -58,6 +58,9 @@ source {
 /* ================== MEDIA QUERIES (SMALL DEVICES) ============= */
 
 @media screen and (max-width: 650px) {
+    .parent{
+        height: 700px;
+    }
      .hold{
     left: 40px;
    }
