@@ -1,8 +1,14 @@
 .parent {
     position: relative;
-    background-image: url("../Assets/bg.png");
-    height: 600px;
+    /*background-image: url("../Assets/bg.png"); */
+    height: 900px;
     background-size: cover;
+}
+
+.b_v{
+    width: 100%;
+    position: fixed;
+    z-index: -1;
 }
 
 .hold {
