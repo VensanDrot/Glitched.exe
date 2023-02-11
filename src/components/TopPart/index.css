@@ -1,20 +1,28 @@
 .parent {
     position: relative;
     /*background-image: url("../Assets/bg.png"); */
-    height: 900px;
+    height: 800px;
     background-size: cover;
 }
 
 .b_v{
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
     width: 100%;
-    position: fixed;
     z-index: -1;
+    filter: brightness(70%);
+}
+
+source {
+    object-fit: cover;
+    
 }
 
 .hold {
     position: absolute;
     left: 157px;
-    bottom: 111px;
+    bottom: 30%;
     display: flex;
     align-items: center;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -22,17 +30,27 @@
     font-size: 40px;
 }
 
-.h1 h1 {
-    margin: 0;
+.h1{
+    width: 50%;
 }
 
-.hold img {
-    height: 328px;
+.h1 h1 {
+    margin: 0;
+    font-size: 55px;
 }
+
+.h1 p {
+    margin: 0;
+    font-size: 28px;
+}
+
 
 @media screen and (max-width: 1024px) {
     .hold {
-        left: 7px;
+        left: 107px;
+    }
+    .h1{
+        width: 75%;
     }
 }
 
@@ -40,30 +58,36 @@
 /* ================== MEDIA QUERIES (SMALL DEVICES) ============= */
 
 @media screen and (max-width: 650px) {
-    .hold {
-        left: 0px;
-        font-size: 32px;
-        bottom: 145px;
-    }
-    .hold img {
-        height: 238px;
-    }
+     .hold{
+    left: 40px;
+   }
+   .h1 {
+    width: 90%;
+   }
+   .h1 h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+   }
+   .h1 p {
+    font-size: 24px;
+   }
 }
 
 
 /* ================== MEDIA QUERIES (Extra SMALL DEVICES) ============= */
 
 @media screen and (max-width: 500px) {
-    .hold {
-        display: block;
-        align-items: center;
-        left: 0;
-        right: 0;
-        text-align: center;
-        font-size: 32px;
-        bottom: 115px;
-    }
-    .hold img {
-        height: 238px;
-    }
+   .hold{
+    left: 40px;
+   }
+   .h1 {
+    width: 90%;
+   }
+   .h1 h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+   }
+   .h1 p {
+    font-size: 24px;
+   }
 }
