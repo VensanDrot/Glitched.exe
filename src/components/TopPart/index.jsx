@@ -5,7 +5,7 @@ import video from "../Assets/glihed_exe.mp4";
 const TopPart = () => {
   return (
     <div className="parent">
-      <video className="b_v" autoPlay loop muted>
+      <video className="b_v" autoPlay loop muted playsinline>
         <source src={video} type="video/mp4" />
       </video>
       <div className="hold">
