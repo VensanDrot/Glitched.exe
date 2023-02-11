@@ -5,7 +5,7 @@ import video from "../Assets/glihed_exe.webm";
 const TopPart = () => {
   return (
     <div className="parent">
-      <video className="b_v" autoPlay loop muted playsinline>
+      <video className="b_v" autoPlay loop muted playsInline>
         <source src={video} type="video/webm" />
       </video>
       <div className="hold">
