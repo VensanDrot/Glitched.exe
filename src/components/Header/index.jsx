@@ -28,10 +28,18 @@ const Header = () => {
         </div>
       </div>
       <div className={`${isOpen ? "ham_menu_active" : ""} ham_menu`}>
-        <Link onClick={() => setOpen(!isOpen)}>О Нас</Link>
-        <Link onClick={() => setOpen(!isOpen)}>Турниры</Link>
-        <Link onClick={() => setOpen(!isOpen)}>Партнеры</Link>
-        <Link onClick={() => setOpen(!isOpen)}>Контанты</Link>
+        <Link to="/NotFound" onClick={() => setOpen(!isOpen)}>
+          О Нас
+        </Link>
+        <Link to="/NotFound" onClick={() => setOpen(!isOpen)}>
+          Турниры
+        </Link>
+        <Link to="/NotFound" onClick={() => setOpen(!isOpen)}>
+          Партнеры
+        </Link>
+        <Link to="/NotFound" onClick={() => setOpen(!isOpen)}>
+          Контанты
+        </Link>
       </div>
     </>
   );
