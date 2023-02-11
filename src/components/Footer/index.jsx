@@ -19,10 +19,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="links_b">
-          <Link>О Нас</Link>
-          <Link>Турниры</Link>
-          <Link>Партнеры</Link>
-          <Link>Контанты</Link>
+          <Link to="/NotFound">О Нас</Link>
+          <Link to="/NotFound">Турниры</Link>
+          <Link to="/NotFound">Партнеры</Link>
+          <Link to="/NotFound">Контанты</Link>
         </div>
         <div className="socials_b">
           <p>Следите за новостями</p>
