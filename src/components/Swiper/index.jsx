@@ -25,38 +25,40 @@ const SwiperRes = (props) => {
 
   return (
     <>
-      <Swiper
-        slidesPerView={changer()}
-        spaceBetween={10}
-        loop={true}
-        centeredSlides={true}
-        navigation={true}
-        pagination={{
-          clickable: true,
-        }}
-        autoplay={{
-          delay: 3500,
-          disableOnInteraction: false,
-        }}
-        modules={[Pagination, Navigation, Autoplay]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <a href="https://frag.gg/" target="_blank" className="a_cont">
-            <img src={img1} alt="" className="small" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://it-park.uz/ru/itpark" target="_blank" className="a_cont">
-            <img src={img2} alt="" />
-          </a>
-        </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://www.instagram.com/majorclub.uz/" target="_blank" className="a_cont">
-            <img src={img3} alt="" />
-          </a>
-        </SwiperSlide>
-      </Swiper>
+      <div className="slider">
+        <Swiper
+          slidesPerView={changer()}
+          spaceBetween={10}
+          loop={true}
+          centeredSlides={true}
+          navigation={true}
+          pagination={{
+            clickable: true,
+          }}
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+          }}
+          modules={[Pagination, Navigation, Autoplay]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <a href="https://frag.gg/" target="_blank" className="a_cont">
+              <img src={img1} alt="" className="small" />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://it-park.uz/ru/itpark" target="_blank" className="a_cont">
+              <img src={img2} alt="" />
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="https://www.instagram.com/majorclub.uz/" target="_blank" className="a_cont">
+              <img src={img3} alt="" />
+            </a>
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </>
   );
 };

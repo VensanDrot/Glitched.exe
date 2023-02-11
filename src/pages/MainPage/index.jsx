@@ -67,9 +67,6 @@ const MainPage = (props) => {
         </div>
         <hr className=" hr btm"></hr>
       </div>
-      <div className="slider">
-        <SwiperRes width={props.width}></SwiperRes>
-      </div>
     </>
   );
 };

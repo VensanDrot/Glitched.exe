@@ -74,11 +74,7 @@ svg {
     justify-content: left;
 }
 
-.slider {
-    background-color: black;
-    height: 450px;
-    padding: 25px 0;
-}
+
 
 @media screen and (max-width: 900px) {
     .info_container {

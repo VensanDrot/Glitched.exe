@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import MainPage from "./pages/MainPage";
 import Footer from "./components/Footer";
+import SwiperRes from "./components/Swiper";
 
 function App() {
   const [windowSize, setWindowSize] = useState([window.innerWidth, window.innerHeight]);
@@ -25,8 +26,9 @@ function App() {
       <Router>
         <Header></Header>
         <Routes>
-          <Route path="/" element={<MainPage width={windowSize[0]} />} />
+          <Route path="/" element={<MainPage />} />
         </Routes>
+        <SwiperRes width={windowSize[0]}></SwiperRes>
         <Footer></Footer>
       </Router>
     </>

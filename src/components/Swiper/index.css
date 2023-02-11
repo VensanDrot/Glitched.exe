@@ -43,3 +43,9 @@
     margin-top: 15%;
     height: 70% !important;
 }
+
+.slider {
+    background-color: black;
+    height: 450px;
+    padding: 25px 0;
+}
