@@ -31,6 +31,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/NotFound" element={<NotFoundPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <SwiperRes width={windowSize[0]}></SwiperRes>
         <Footer></Footer>

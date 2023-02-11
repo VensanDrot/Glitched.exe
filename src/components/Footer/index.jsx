@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
-import logo from "../Assets/logo.svg";
+import logo from "../../Assets/logo.svg";
 import { TbBrandTelegram } from "react-icons/tb";
 import { RxDiscordLogo } from "react-icons/rx";
 import { FiInstagram } from "react-icons/fi";

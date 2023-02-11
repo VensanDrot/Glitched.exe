@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
-import video from "../Assets/glihed_exe.webm";
-import video1 from "../Assets/glihed_exe1.mp4";
+import video from "../../Assets/glihed_exe.webm";
+import video1 from "../../Assets/glihed_exe1.mp4";
 
 const TopPart = () => {
   return (

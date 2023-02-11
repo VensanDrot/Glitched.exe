@@ -1,4 +1,25 @@
 .NotFound {
-    height: 100vh;
-    background-color: blue;
+    height: 90vh;
+    padding-top: 10vh;
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NotFound h1,
+.gear{
+    margin: 0;
+}
+
+.gear svg{
+    font-size: 40px;
+}
+
+.jh {
+    height: 80vh;
+    object-fit: scale-down;
+    width: auto;
 }

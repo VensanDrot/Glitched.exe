@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
-import logo from "../Assets/logo.svg";
+import logo from "../../Assets/logo.svg";
 import { Sling as Hamburger } from "hamburger-react";
 
 const Header = () => {
@@ -10,18 +10,20 @@ const Header = () => {
     <>
       <div className="header_container">
         <div className="holder">
-          <div className="img_text">
-            <img src={logo} alt="" />
-            Glitched.exe
-          </div>
+          <Link to="/">
+            <div className="img_text">
+              <img src={logo} alt="" />
+              Glitched.exe
+            </div>
+          </Link>
           <div className="ham">
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
           <div className="links">
-            <Link>О Нас</Link>
-            <Link>Турниры</Link>
-            <Link>Партнеры</Link>
-            <Link>Контанты</Link>
+            <Link to="/NotFound">О Нас</Link>
+            <Link to="/NotFound">Турниры</Link>
+            <Link to="/NotFound">Партнеры</Link>
+            <Link to="/NotFound">Контанты</Link>
           </div>
         </div>
       </div>

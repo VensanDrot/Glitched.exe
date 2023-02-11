@@ -9,6 +9,10 @@
         z-index: 1000000;
     }
     
+    .header_container a {
+        display: flex;
+    }
+
     .holder {
         width: 60%;
         margin-left: 12%;
