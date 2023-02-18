@@ -1,123 +1,50 @@
-* {
-    color: white;
-}
-
-.info_container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 500px !important;
-    padding: 0;
-    background-color: black;
-    position: relative;
-}
-
-.info_container div {
-    overflow: hidden;
-}
-
-.flex_cont_soc {
+.info_holder {
+    padding: 150px 0 50px 0;
     display: flex;
     flex-direction: column;
-    row-gap: 8px;
+    row-gap: 100px;
 }
 
-.hr {
-    margin: 0;
+.holder {
+    width: 80%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.info_holder_hr {
     position: absolute;
-    background-color: white;
-    width: 0.3px;
-    height: 25px;
-    transform: rotate(0deg);
+    color: #FF008B;
+    height: 170px;
 }
 
-.top {
-    top: 0;
-    right: 50%;
-}
-
-.btm {
-    bottom: 0;
-    right: 50%;
-}
-
-.data_cont {
-    height: 320px;
-    width: 400px;
-}
-
-.data_cont h1 {
-    text-align: right;
-}
-
-.info_spec p {
-    text-align: right;
-    font-size: 23px;
-    line-height: 28px;
-}
-
-.socials a,
-svg {
-    font-size: 24px;
-    text-align: center;
-}
-
-.socials h1 {
+.l {
+    left: -40px;
     text-align: left;
 }
 
-.aligner {
-    height: 30px;
-    gap: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: left;
+.r {
+    right: -40px;
+    text-align: right;
 }
 
 
-
-@media screen and (max-width: 900px) {
-    .info_container {
-        flex-direction: column;
-        height: auto !important;
-        padding: 15px 0;
-        text-align: center;
-    }
-    .data_cont {
-        height: 310px;
-    }
-    .hr {
-        width: 25px;
-        height: 0.3px;
-    }
-    .top {
-        right: 0;
-        top: 50%;
-    }
-    .btm {
-        left: 0;
-        top: 50%;
-    }
+.text {
+    display: block;
+    width: 50%;
 }
 
-
-/* ================== MEDIA QUERIES (Extra SMALL DEVICES) ============= */
-
-@media screen and (max-width: 420px) {
-    .socials h1 {
-        font-size: 31px;
-    }
-    .data_cont {
-        width: auto;
-        padding-inline: 5px;
-    }
-    .info_spec p {
-        text-align: right;
-        font-size: 20px;
-        line-height: 25px;
-    }
-    .socials a,
-    svg {
-        font-size: 21px;
-    }
+.text h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
 }
+
+.text p{
+    font-size: 22px;
+}
+
+.img {
+    height: 650px;
+}
+

@@ -6,6 +6,8 @@ import { TbBrandTelegram } from "react-icons/tb";
 import { RxDiscordLogo } from "react-icons/rx";
 import { FiInstagram } from "react-icons/fi";
 import { BsTwitch } from "react-icons/bs";
+import g1 from "../../Assets/g1.png";
+import g2 from "../../Assets/g2.png";
 
 const MainPage = (props) => {
   /*
@@ -19,7 +21,7 @@ const MainPage = (props) => {
   return (
     <>
       <TopPart></TopPart>
-
+      {/*
       <div className="info_container">
         <hr className=" hr top"></hr>
         <div className="socials data_cont">
@@ -66,6 +68,52 @@ const MainPage = (props) => {
           </p>
         </div>
         <hr className=" hr btm"></hr>
+      </div>
+       */}
+
+      <div className="container info_holder">
+        <div className="holder left">
+          <hr className="info_holder_hr l" />
+          <div className="text l">
+            <h1 className="info_holder_head">О нас</h1>
+            <p className="info_holder_text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia eum!
+              Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur quidem
+              quo aperiam nemo?
+              <br />
+              <br /> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia
+              eum! Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur
+              quidem quo aperiam nemo?
+              <br />
+              <br />
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia eum!
+              Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur quidem
+              quo aperiam nemo?
+            </p>
+          </div>
+          <img className="img" src={g1} alt="" />
+        </div>
+        <div className="holder right">
+          <img className="img " src={g2} alt="" />
+          <div className="text r">
+            <h1 className="info_holder_head">Наша миссия</h1>
+            <p className="info_holder_text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia eum!
+              Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur quidem
+              quo aperiam nemo?
+              <br />
+              <br /> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia
+              eum! Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur
+              quidem quo aperiam nemo?
+              <br />
+              <br />
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia eum!
+              Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur quidem
+              quo aperiam nemo?
+            </p>
+          </div>
+          <hr className="info_holder_hr r" />
+        </div>
       </div>
     </>
   );

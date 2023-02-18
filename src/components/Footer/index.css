@@ -1,5 +1,4 @@
     .f_container {
-        background: black;
         position: relative;
         height: 229px;
         display: flex;
@@ -58,6 +57,11 @@
         gap: 30px;
     }
     
+    .socials a, svg {
+    font-size: 24px;
+    text-align: center;
+    }
+
     @media screen and (max-width: 800px) {
         .f_container {
             display: grid;
@@ -85,6 +89,9 @@
             flex-direction: column;
             align-items: center;
             row-gap: 20px;
+        }
+        .links_b {
+            text-align: center;
         }
         .img_name {
             margin-bottom: 15px;

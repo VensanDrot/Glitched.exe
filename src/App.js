@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router className="body">
         <Header></Header>
         <Routes>
           <Route path="/" element={<MainPage />} />
