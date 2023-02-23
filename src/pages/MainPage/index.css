@@ -48,7 +48,7 @@
     height: 650px;
 }
 
-@media screen and (max-width: 1154px) {
+@media screen and (max-width: 1180px) {
     .text.l, .text.r {
         background-image: url("../../Assets/g1.png");
         height: 700px;
