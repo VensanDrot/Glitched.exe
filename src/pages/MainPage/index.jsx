@@ -80,15 +80,6 @@ const MainPage = (props) => {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia eum!
               Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur quidem
               quo aperiam nemo?
-              <br />
-              <br /> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia
-              eum! Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur
-              quidem quo aperiam nemo?
-              <br />
-              <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia eum!
-              Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur quidem
-              quo aperiam nemo?
             </p>
           </div>
           <img className="img" src={g1} alt="" />
@@ -98,15 +89,6 @@ const MainPage = (props) => {
           <div className="text r">
             <h1 className="info_holder_head">Наша миссия</h1>
             <p className="info_holder_text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia eum!
-              Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur quidem
-              quo aperiam nemo?
-              <br />
-              <br /> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia
-              eum! Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur
-              quidem quo aperiam nemo?
-              <br />
-              <br />
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia eum!
               Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur quidem
               quo aperiam nemo?

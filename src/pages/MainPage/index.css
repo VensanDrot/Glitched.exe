@@ -48,3 +48,44 @@
     height: 650px;
 }
 
+@media screen and (max-width: 1024px) {
+    .text.l, .text.r {
+        background-image: url("../../Assets/g1.png");
+        height: 550px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: grey;
+        background-blend-mode: multiply;
+    }
+
+    .r {
+        background-image: url("../../Assets/g2.png") !important;
+    }
+
+    .text {
+        padding: 10px 15px;
+    }
+
+    .img {
+        display: none
+    }
+    
+}
+
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) ============= */
+
+@media screen and (max-width: 1000px) {
+     .text {
+        width: 90%;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+     .text {
+        width: 100%;
+    }
+}
+
+
