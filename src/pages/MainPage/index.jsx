@@ -77,9 +77,11 @@ const MainPage = (props) => {
           <div className="text l">
             <h1 className="info_holder_head">О нас</h1>
             <p className="info_holder_text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia eum!
-              Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur quidem
-              quo aperiam nemo?
+              Наша организация начало свою деятельность в 2019 году, под тэгом "Banana Gaming". Целью и задачами было
+              проведение внутренних турниров и мероприятий для студентов в университете WIUT. В конце 2021 года у нас
+              произошел ребрендинг и организация начала выступать под название "Glitched.exe"(с англ - сбой). Свою
+              турнирную деятельность организация начала осуществлять в начале 2022 года, и своим первым шагом в мир
+              киберспорта устроила меджу-университетский турнир между Вестминстер и Вебстер.
             </p>
           </div>
           <img className="img" src={g1} alt="" />
@@ -89,9 +91,9 @@ const MainPage = (props) => {
           <div className="text r">
             <h1 className="info_holder_head">Наша миссия</h1>
             <p className="info_holder_text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, quaerat. Accusamus nulla officia eum!
-              Laboriosam iure optio magni, obcaecati veritatis eaque quis deserunt natus voluptatem? Consequatur quidem
-              quo aperiam nemo?
+              В нынешняя время целью "Glitched.exe" является развитие киберспорта в Узбекистане, организация ежемесячно
+              проводит множество мероприятий как: турниры по всяким дисциплинам, викторины о киберспорте, а также
+              гостевые лекции с опытными специалистами в этой сфере.
             </p>
           </div>
           <hr className="info_holder_hr r" />

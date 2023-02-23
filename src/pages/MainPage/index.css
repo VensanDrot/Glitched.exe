@@ -48,10 +48,10 @@
     height: 650px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1154px) {
     .text.l, .text.r {
         background-image: url("../../Assets/g1.png");
-        height: 550px;
+        height: 700px;
         background-size: cover;
         background-repeat: no-repeat;
         background-color: grey;
@@ -64,6 +64,7 @@
 
     .text {
         padding: 10px 15px;
+        width: 70%;
     }
 
     .img {
