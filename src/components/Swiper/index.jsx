@@ -28,7 +28,6 @@ const SwiperRes = (props) => {
       <div className="slider">
         <Swiper
           slidesPerView={changer()}
-          spaceBetween={10}
           loop={true}
           centeredSlides={true}
           navigation={true}
