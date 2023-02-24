@@ -48,6 +48,62 @@
     height: 650px;
 }
 
+/* Grided part */ 
+
+
+.incorporation {
+    display: flex;
+    row-gap: 80px;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+
+.top_inc, .bottom_inc {
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.inc_svg {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.inc_svg img{
+    width: 62px;
+}
+
+.inc_box {
+    width: 428px;
+    display: flex;
+    gap: 21px;
+}
+
+.inc_text {
+    width: 307px;
+}
+
+.inc_text h2{
+    margin: 0;
+    font-size: 33px;
+}
+
+.inc_text p {
+    margin-top: 3px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Media Queries */
+
 @media screen and (max-width: 1180px) {
     .text.l, .text.r {
         background-image: url("../../Assets/g1.png");
@@ -70,8 +126,13 @@
     .img {
         display: none
     }
+
+    .holder {
+        justify-content: center;
+    }
     
 }
+
 
 
 /* ================== MEDIA QUERIES (SMALL DEVICES) ============= */

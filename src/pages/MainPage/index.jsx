@@ -6,6 +6,11 @@ import { TbBrandTelegram } from "react-icons/tb";
 import { RxDiscordLogo } from "react-icons/rx";
 import { FiInstagram } from "react-icons/fi";
 import { BsTwitch } from "react-icons/bs";
+import SVG1 from "../../Assets/Vector.svg";
+import SVG2 from "../../Assets/Vector(1).svg";
+import SVG3 from "../../Assets/Vector(2).svg";
+import SVG4 from "../../Assets/Vector(3).svg";
+import SVG5 from "../../Assets/Vector(4).svg";
 import g1 from "../../Assets/g1.png";
 import g2 from "../../Assets/g2.png";
 
@@ -21,55 +26,6 @@ const MainPage = (props) => {
   return (
     <>
       <TopPart></TopPart>
-      {/*
-      <div className="info_container">
-        <hr className=" hr top"></hr>
-        <div className="socials data_cont">
-          <h1>Наши социальные сети</h1>
-          <div className="flex_cont_soc">
-            <a href="https://t.me/glitched_exe" target="_blank">
-              <div className="aligner">
-                <p>Новости и анонсы турниров</p>
-                <TbBrandTelegram />
-              </div>
-            </a>
-            <a href="https://t.me/Glitchedexe" target="_blank">
-              <div className="aligner">
-                <p>Поболтаем?</p>
-                <TbBrandTelegram />
-              </div>
-            </a>
-            <a href="https://instagram.com/glitched.exe.inst/" target="_blank">
-              <div className="aligner">
-                <p>Instagram</p>
-                <FiInstagram />
-              </div>
-            </a>
-            <a href="https://www.twitch.tv/glitched_media" target="_blank">
-              <div className="aligner">
-                <p>Трансляции тут</p>
-                <BsTwitch />
-              </div>
-            </a>
-            <a href="https://discord.gg/75YWWfNZkd" target="_blank">
-              <div className="aligner">
-                <p>Discord</p>
-                <RxDiscordLogo />
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="info_spec data_cont">
-          <h1>Glitched.exe</h1>
-          <p>
-            Glitched.exe - игровой комьюнити клуб основанный в Вестминстерском университете, целью которого является
-            организовывать киберспортивные турниры и другие события по разным дисциплинам, ежегодно проводящий более 10
-            мероприятий в год
-          </p>
-        </div>
-        <hr className=" hr btm"></hr>
-      </div>
-       */}
 
       <div className="container info_holder">
         <div className="holder left">
@@ -97,6 +53,84 @@ const MainPage = (props) => {
             </p>
           </div>
           <hr className="info_holder_hr r" />
+        </div>
+      </div>
+
+      {/* Grided part */}
+
+      <div className="incorporation">
+        <h1>Преимущества сотрудничества с нами</h1>
+        <div className="top_inc">
+          <div className="inc_box">
+            <div className="inc_svg">
+              <img src={SVG1} alt="" />
+            </div>
+            <div className="inc_text">
+              <h2>Качество</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quas reiciendis unde cum nulla
+                quam consectetur esse iure consequatur accusamus placeat modi, hic nesciunt reprehenderit repellat porro
+                rerum amet totam.
+              </p>
+            </div>
+          </div>
+
+          <div className="inc_box">
+            <div className="inc_svg">
+              <img src={SVG2} alt="" />
+            </div>
+            <div className="inc_text">
+              <h2>Поддержка</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quas reiciendis unde cum nulla
+                quam consectetur esse iure consequatur accusamus placeat modi, hic nesciunt reprehenderit repellat porro
+                rerum amet totam.
+              </p>
+            </div>
+          </div>
+
+          <div className="inc_box">
+            <div className="inc_svg">
+              <img src={SVG3} alt="" />
+            </div>
+            <div className="inc_text">
+              <h2>Цена</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quas reiciendis unde cum nulla
+                quam consectetur esse iure consequatur accusamus placeat modi, hic nesciunt reprehenderit repellat porro
+                rerum amet totam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="bottom_inc">
+          <div className="inc_box">
+            <div className="inc_svg">
+              <img src={SVG4} alt="" />
+            </div>
+            <div className="inc_text">
+              <h2>Безопасность</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quas reiciendis unde cum nulla
+                quam consectetur esse iure consequatur accusamus placeat modi, hic nesciunt reprehenderit repellat porro
+                rerum amet totam.
+              </p>
+            </div>
+          </div>
+
+          <div className="inc_box">
+            <div className="inc_svg">
+              <img src={SVG5} alt="" />
+            </div>
+            <div className="inc_text">
+              <h2>Медиа</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quas reiciendis unde cum nulla
+                quam consectetur esse iure consequatur accusamus placeat modi, hic nesciunt reprehenderit repellat porro
+                rerum amet totam.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>
