@@ -5,11 +5,13 @@
     row-gap: 100px;
 }
 
-.holder {
+.m_holder {
     width: 80%;
+    margin: 0 10%;
     display: flex;
     position: relative;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .info_holder_hr {
@@ -32,6 +34,7 @@
 .text {
     display: block;
     width: 50%;
+    font-size: 22px;
 }
 
 .text h1 {
@@ -40,9 +43,6 @@
     font-size: 40px;
 }
 
-.text p{
-    font-size: 22px;
-}
 
 .img {
     height: 650px;
@@ -65,6 +65,7 @@
     margin-left: 10%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 60px;
 }
 
@@ -89,24 +90,24 @@
 
 .inc_text {
     width: 307px;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .inc_text h2{
     margin: 0;
     font-size: 33px;
+    margin-bottom: 3px;
 }
 
-.inc_text p {
-    margin-top: 3px;
-    font-size: 18px;
-    font-weight: 400;
-}
+ 
 
 /* Media Queries */
 
 @media screen and (max-width: 1180px) {
     .text.l, .text.r {
         background-image: url("../../Assets/g1.png");
+        background-position: center; 
         height: 700px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -127,7 +128,7 @@
         display: none
     }
 
-    .holder {
+    .m_holder  {
         justify-content: center;
     }
     
@@ -140,14 +141,45 @@
 @media screen and (max-width: 1000px) {
      .text {
         width: 90%;
-        
     }
+    /* FlexBox */
 }
 
 @media screen and (max-width: 600px) {
+    .m_holder {
+        width: 95%;
+        margin: 0 2.5%;
+    }
+
      .text {
         width: 100%;
+        font-size: 19px;
     }
+
+    /* FlexBox */
+
+    
+    .inc_svg {
+        height: 75px;
+        width: 75px;
+    }
+
+    .inc_svg img{
+    width: 50px;
+    }
+
+    .top_inc, .bottom_inc {
+        width: 95%;
+        margin: 0 2.5%;
+    }
+
+    .inc_text {
+        font-size: 19px;
+        width: 70%;
+    }
+
+    
+    
 }
 
 

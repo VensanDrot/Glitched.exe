@@ -28,7 +28,7 @@ const MainPage = (props) => {
       <TopPart></TopPart>
 
       <div className="container info_holder">
-        <div className="holder left">
+        <div className="m_holder left">
           <hr className="info_holder_hr l" />
           <div className="text l">
             <h1 className="info_holder_head">О нас</h1>
@@ -42,7 +42,7 @@ const MainPage = (props) => {
           </div>
           <img className="img" src={g1} alt="" />
         </div>
-        <div className="holder right">
+        <div className="m_holder right">
           <img className="img " src={g2} alt="" />
           <div className="text r">
             <h1 className="info_holder_head">Наша миссия</h1>
