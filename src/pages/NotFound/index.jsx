@@ -2,8 +2,17 @@ import React from "react";
 import "./index.css";
 import { BsTools } from "react-icons/bs";
 import jh from "../../Assets/jh.png";
+import jh1 from "../../Assets/jh1.png";
 
 const NotFoundPage = () => {
+  const rand = () => {
+    if (Math.floor(Math.random() * 3) === 0) {
+      return jh1;
+    } else {
+      return jh;
+    }
+  };
+
   return (
     <>
       <div className="NotFound">
@@ -11,7 +20,7 @@ const NotFoundPage = () => {
           <BsTools />
         </h1>
         <h1>Тут ничего нет :(</h1>
-        <img src={jh} className="jh" alt="No mechanic here" />
+        <img src={rand()} className="jh" alt="No mechanic here" />
       </div>
     </>
   );
