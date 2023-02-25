@@ -9,6 +9,7 @@ rgb(126,17,65)
 
 #root {
     background-color: rgb(0,10,15);
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
