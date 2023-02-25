@@ -20,22 +20,22 @@ const Header = () => {
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>
           <div className="links">
-            <Link to="/NotFound">О Нас</Link>
+            <Link to="/">Главная</Link>
             <Link to="/NotFound">Турниры</Link>
-            <Link to="/NotFound">Партнеры</Link>
+            <Link to="/NotFound">Сотрудничество</Link>
             <Link to="/NotFound">Контанты</Link>
           </div>
         </div>
       </div>
       <div className={`${isOpen ? "ham_menu_active" : ""} ham_menu`}>
-        <Link to="/NotFound" onClick={() => setOpen(!isOpen)}>
-          О Нас
+        <Link to="/" onClick={() => setOpen(!isOpen)}>
+          Главная
         </Link>
         <Link to="/NotFound" onClick={() => setOpen(!isOpen)}>
           Турниры
         </Link>
         <Link to="/NotFound" onClick={() => setOpen(!isOpen)}>
-          Партнеры
+          Сотрудничество
         </Link>
         <Link to="/NotFound" onClick={() => setOpen(!isOpen)}>
           Контанты

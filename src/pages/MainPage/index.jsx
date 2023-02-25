@@ -67,11 +67,7 @@ const MainPage = (props) => {
             </div>
             <div className="inc_text">
               <h2>Качество</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quas reiciendis unde cum nulla
-                quam consectetur esse iure consequatur accusamus placeat modi, hic nesciunt reprehenderit repellat porro
-                rerum amet totam.
-              </p>
+              <p>Гарантия высокого качества обслуживания</p>
             </div>
           </div>
 
@@ -81,11 +77,7 @@ const MainPage = (props) => {
             </div>
             <div className="inc_text">
               <h2>Поддержка</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quas reiciendis unde cum nulla
-                quam consectetur esse iure consequatur accusamus placeat modi, hic nesciunt reprehenderit repellat porro
-                rerum amet totam.
-              </p>
+              <p>Круглосуточная поддержка от опытных экспертов</p>
             </div>
           </div>
 
@@ -95,11 +87,7 @@ const MainPage = (props) => {
             </div>
             <div className="inc_text">
               <h2>Цена</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quas reiciendis unde cum nulla
-                quam consectetur esse iure consequatur accusamus placeat modi, hic nesciunt reprehenderit repellat porro
-                rerum amet totam.
-              </p>
+              <p>Дешевые цены по сравнению с другими</p>
             </div>
           </div>
         </div>
@@ -110,11 +98,7 @@ const MainPage = (props) => {
             </div>
             <div className="inc_text">
               <h2>Безопасность</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quas reiciendis unde cum nulla
-                quam consectetur esse iure consequatur accusamus placeat modi, hic nesciunt reprehenderit repellat porro
-                rerum amet totam.
-              </p>
+              <p>Строгая конфиденциальность при выполнение любого вида задания</p>
             </div>
           </div>
 
@@ -124,11 +108,7 @@ const MainPage = (props) => {
             </div>
             <div className="inc_text">
               <h2>Медиа</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quas reiciendis unde cum nulla
-                quam consectetur esse iure consequatur accusamus placeat modi, hic nesciunt reprehenderit repellat porro
-                rerum amet totam.
-              </p>
+              <p>Полное медиа освещение турнира</p>
             </div>
           </div>
         </div>
